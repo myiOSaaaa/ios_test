@@ -15,6 +15,10 @@
 		BCE7D8691ABD850800A517CB /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BCE7D8681ABD850800A517CB /* Images.xcassets */; };
 		BCE7D86C1ABD850800A517CB /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = BCE7D86A1ABD850800A517CB /* LaunchScreen.xib */; };
 		BCE7D8781ABD850800A517CB /* PanGestureTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BCE7D8771ABD850800A517CB /* PanGestureTestTests.m */; };
+		BCE7D8821ABD877E00A517CB /* s.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BCE7D8811ABD877E00A517CB /* s.jpg */; };
+		BCE7D8831ABD877E00A517CB /* s.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BCE7D8811ABD877E00A517CB /* s.jpg */; };
+		BCE7D8861ABD8F5D00A517CB /* CustomLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = BCE7D8851ABD8F5D00A517CB /* CustomLayer.m */; };
+		BCE7D8871ABD8F5D00A517CB /* CustomLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = BCE7D8851ABD8F5D00A517CB /* CustomLayer.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,6 +46,9 @@
 		BCE7D8711ABD850800A517CB /* PanGestureTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PanGestureTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BCE7D8761ABD850800A517CB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BCE7D8771ABD850800A517CB /* PanGestureTestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PanGestureTestTests.m; sourceTree = "<group>"; };
+		BCE7D8811ABD877E00A517CB /* s.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = s.jpg; sourceTree = "<group>"; };
+		BCE7D8841ABD8F5D00A517CB /* CustomLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomLayer.h; sourceTree = "<group>"; };
+		BCE7D8851ABD8F5D00A517CB /* CustomLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomLayer.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +90,9 @@
 		BCE7D8571ABD850800A517CB /* PanGestureTest */ = {
 			isa = PBXGroup;
 			children = (
+				BCE7D8841ABD8F5D00A517CB /* CustomLayer.h */,
+				BCE7D8851ABD8F5D00A517CB /* CustomLayer.m */,
+				BCE7D8811ABD877E00A517CB /* s.jpg */,
 				BCE7D85C1ABD850800A517CB /* AppDelegate.h */,
 				BCE7D85D1ABD850800A517CB /* AppDelegate.m */,
 				BCE7D8621ABD850800A517CB /* ViewController.h */,
@@ -205,6 +215,7 @@
 				BCE7D8671ABD850800A517CB /* Main.storyboard in Resources */,
 				BCE7D86C1ABD850800A517CB /* LaunchScreen.xib in Resources */,
 				BCE7D8691ABD850800A517CB /* Images.xcassets in Resources */,
+				BCE7D8821ABD877E00A517CB /* s.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -212,6 +223,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BCE7D8831ABD877E00A517CB /* s.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -222,6 +234,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BCE7D8861ABD8F5D00A517CB /* CustomLayer.m in Sources */,
 				BCE7D85E1ABD850800A517CB /* AppDelegate.m in Sources */,
 				BCE7D85B1ABD850800A517CB /* main.m in Sources */,
 				BCE7D8641ABD850800A517CB /* ViewController.m in Sources */,
@@ -233,6 +246,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BCE7D8871ABD8F5D00A517CB /* CustomLayer.m in Sources */,
 				BCE7D8781ABD850800A517CB /* PanGestureTestTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -350,6 +364,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = PanGestureTest/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -360,6 +375,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = PanGestureTest/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -418,6 +434,7 @@
 				BCE7D87D1ABD850800A517CB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		BCE7D87E1ABD850800A517CB /* Build configuration list for PBXNativeTarget "PanGestureTestTests" */ = {
 			isa = XCConfigurationList;
@@ -426,6 +443,7 @@
 				BCE7D8801ABD850800A517CB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
