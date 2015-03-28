@@ -19,7 +19,8 @@
         CAShapeLayer * sl1 = [CAShapeLayer layer];
         
         UIBezierPath* circle = [UIBezierPath bezierPathWithOvalInRect:CGRectMake(0, 0, WIDTH, WIDTH)];
-//
+        
+        //test test
         float img_w = 80.0;
         sl1.path = circle.CGPath;
         sl1.lineWidth = 2.0;
