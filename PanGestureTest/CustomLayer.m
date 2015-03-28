@@ -14,6 +14,7 @@
 {
     self = [super init];
     if (self) {
+        //india
         NSLog(@"%@",NSStringFromCGRect(self.bounds));
 
         CAShapeLayer * sl1 = [CAShapeLayer layer];

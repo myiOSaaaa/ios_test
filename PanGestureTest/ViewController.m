@@ -30,6 +30,7 @@ static NSString * CardImageColor[] = {@"white",@"black",@"blue",@"green",@"red",
     self = [super initWithCoder:aDecoder];
     if (self) {
 //        shuffleView_ = nil;
+        //test2
         panlayer = nil;
         beganpoint = CGPointZero;
         centerpoint = CGPointZero;
