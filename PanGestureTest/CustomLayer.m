@@ -33,8 +33,8 @@
 //        sl1.rasterizationScale = [UIScreen mainScreen].scale;
 //        sl1.shouldRasterize = YES;
         [self addSublayer:sl1];
-        
-
+        int i=0;
+//sdfsadf
         CAShapeLayer * sl2 = [CAShapeLayer layer];
         
         sl2.path = circle.CGPath;
